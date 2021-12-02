@@ -22,6 +22,14 @@ public class App {
         output("Name: " + cat2.getName());
         output("Fellfarbe: " + cat2.getFurColor());
         output("Alter: " + cat2.getAge());
+
+
+        output("--------- Info -----------");
+        // output(2); //Typ muss konvertiert werden!
+        output("Zahl: " + 2);
+        output(String.valueOf(2));  // int --> String
+        output(Integer.toString(2)); // int --> String
+
     }
 
     public static void output(String outputStr){

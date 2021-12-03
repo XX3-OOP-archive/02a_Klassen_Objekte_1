@@ -25,7 +25,7 @@ public class App {
 
 
         output("--------- Info -----------");
-        // output(2); //Typ muss konvertiert werden!
+        //output(2); //Typ muss konvertiert werden!
         output("Zahl: " + 2);
         output(String.valueOf(2));  // int --> String
         output(Integer.toString(2)); // int --> String
